@@ -22,17 +22,21 @@
     <section>
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-6">
-
+          <div class="col-md-3 col-md-offset-1">
+            <img class="img-responsive img-circle" src="img/16464763.jpg" alt="">
+            <h4>De Almeida Patrick</h4>
           </div>
-          <div class="col-md-6">
-            <h3><i class="fa fa-tel">0762302101</i></h3>
+          <div class="col-md-4 col-md-offset-2">
+            <h3><i class="fa fa-facebook"><a href="#"> Compte Pro</a></i></h3>
+            <h3><i class="fa fa-twitter"><a href="#"> @Dealmeida89</a></i></h3>
+            <h3><i class="fa fa-phone"></i><a href="tel:0762302101"> 07 62 30 21 01</a></h3>
+            <h3><i class="fa fa-envelope"></i><a href="mailto:patrick.de.almeida89@gmail.com"> Envoyé un mail</a></li></h3>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer -->
-    <?php include("footer.php");?>
+    <?php include("footer1.php");?>
     <!-- Fin footer -->
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
