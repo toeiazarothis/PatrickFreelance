@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -19,7 +18,7 @@
     <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
   </head>
-  <body class="bg bg-darkest-gray">
+  <body id="page-top" class="index">
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,8 +39,16 @@
     </nav>
     <!--  -->
     <!-- Message d'accueil -->
-    <header>
-
+    <header class="bg bg-darkest-gray">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Bonjour!</div>
+          <div class="intro-heading">
+            <p>Bienvenue sur mon site </p>
+            <a href="#footer" class="page-scroll btn btn-xl">SUIVRE</a>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- FIN message d'accueil -->
 
@@ -72,5 +79,6 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>  </body>
+    <script src="js/agency.min.js"></script>
+  </body>
 </html>
