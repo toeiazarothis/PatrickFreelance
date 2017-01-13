@@ -46,16 +46,67 @@
           <div class="intro-lead-in">Bonjour!</div>
           <div class="intro-heading">
             <p>Bienvenue sur mon site </p>
-            <a href="#footer" class="page-scroll btn btn-xl">SUIVRE</a>
+            <a href="#footer" class="page-scroll btn btn-xl"></a>
           </div>
         </div>
       </div>
     </header>
     <!-- FIN message d'accueil -->
 
-    <section id="">
-
-    </section>
+    <section id="portfolio" class="bg-light-gray">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 text-center">
+                   <h2 class="section-heading">Mes differentes creation</h2>
+                   <h3 class="section-subheading text-muted">Pour des clients ou pour m'entrainer,<br>j'ai eu la possibilité de crée plusieurs site.</h3>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                   <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="img/portfolio/OTHER/vous.jpg" class="img-responsive" alt="">
+                   </a>
+                   <div class="portfolio-caption">
+                       <h4>Vous</h4>
+                       <p class="text-muted">Sans doute vous le prochain</p>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                   <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+                   </a>
+                   <div class="portfolio-caption">
+                       <h4>TSR</h4>
+                       <p class="text-muted">Site de l'auto-ecole TSR.</p>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                   <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="img/portfolio/POGO3/pogo3.jpg" class="img-responsive" alt="">
+                   </a>
+                   <div class="portfolio-caption">
+                       <h4>Pogo3</h4>
+                       <p class="text-muted">Pokemon go Troyes.</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
     <!--  -->
     <!--  -->
     <section id="">
@@ -67,6 +118,7 @@
 
     </section>
     <!-- FIN 3 -->
+    <?php include("modal.php") ?>
     <!-- Footer -->
     <?php include("footer.php");?>
     <!-- Fin footer -->

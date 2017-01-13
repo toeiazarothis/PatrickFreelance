@@ -52,21 +52,40 @@
       </div>
     </header>
     <!-- FIN message d'accueil -->
-
+    <!-- Liste des reseaux sociaux -->
+    <section id="reseauxsociaux">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <i class="fa fa-facebook fa-4x"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="fa fa-twitter fa-4x"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="fa fa-skype fa-4x"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="fa fa-envelope fa-4x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin de la liste des reseaux sociaux -->
+    <!--  -->
     <section id="">
 
     </section>
     <!--  -->
-    <!--  -->
-    <section id="">
-
+    <!-- Formulaire de contact -->
+    <section id="formulaire">
+      <div class="container text-center">
+        <div class="row">
+          
+        </div>
+      </div>
     </section>
-    <!--  -->
-    <!-- 3 -->
-    <section id="">
-
-    </section>
-    <!-- FIN 3 -->
+    <!-- Fin du formulaire de contact -->
     <!-- Footer -->
     <?php include("footer.php");?>
     <!-- Fin footer -->
