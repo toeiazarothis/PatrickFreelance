@@ -57,33 +57,65 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-3">
-            <i class="fa fa-facebook fa-4x"></i>
+            <a href="http://facebook.com"><img src="img/facebook.png" alt=""></a>
           </div>
           <div class="col-md-3">
-            <i class="fa fa-twitter fa-4x"></i>
+            <a href="http://twitter.com"><img src="img/twitter.png" alt=""></a>
           </div>
           <div class="col-md-3">
-            <i class="fa fa-skype fa-4x"></i>
+            <a href="skype:echo-chinese?chat"><img src="img/skype.png" alt=""></a>
           </div>
           <div class="col-md-3">
-            <i class="fa fa-envelope fa-4x"></i>
+            <a href="mailto:@"><img src="img/gmail.png" alt=""></a>
           </div>
         </div>
       </div>
     </section>
     <!-- Fin de la liste des reseaux sociaux -->
-    <!--  -->
-    <section id="">
-
-    </section>
-    <!--  -->
     <!-- Formulaire de contact -->
+    <!-- Contact Section -->
     <section id="formulaire">
-      <div class="container text-center">
-        <div class="row">
-          
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Formulaire</h2>
+                    <h3 class="section-subheading text-muted">Pour me contacter autrement.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Envoyer le message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Fin du formulaire de contact -->
     <!-- Footer -->
