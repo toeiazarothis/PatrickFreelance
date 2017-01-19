@@ -2,6 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
+    <?php include("model/function.php") ?>
     <link rel="stylesheet" href="https://use.fontawesome.com/3821b24c40.css">
     <meta name="twitter:" content="">
     <meta name="" content="">
@@ -16,17 +17,16 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
   </head>
   <body id="page-top" class="index">
-
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
               navigation</span> Menu </button> <a class="navbar-brand page-scroll"
-            href="#page-top">Azarothis</a> </div>
+            href="#page-top">Azarothis Technologie</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -41,18 +41,9 @@
     </nav>
     <!--  -->
     <!-- Message d'accueil -->
-    <header>
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Bonjour!</div>
-          <div class="intro-heading">
-            <p>Bienvenue sur mon site </p>
-            <a href="#footer" class="page-scroll btn btn-xl">SUIVRE</a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <?php echo ajoutEleve(); ?>
     <!-- FIN message d'accueil -->
+    <!-- FIN 3 -->
     <!-- Footer -->
     <?php include("footer.php");?>
     <!-- Fin footer -->

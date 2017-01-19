@@ -16,16 +16,17 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
   </head>
   <body id="page-top" class="index">
+
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
               navigation</span> Menu </button> <a class="navbar-brand page-scroll"
-            href="#page-top">Azarothis Technologie</a> </div>
+            href="#page-top">Azarothis</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -46,13 +47,13 @@
           <div class="intro-lead-in">Bonjour!</div>
           <div class="intro-heading">
             <p>Bienvenue sur mon site </p>
-            <a href="#footer" class="page-scroll btn btn-xl"></a>
+            <a href="#portfolio" class="page-scroll btn btn-xl">Decouvrez mon travail</a>
           </div>
         </div>
       </div>
     </header>
     <!-- FIN message d'accueil -->
-
+    <!-- Modal creation -->
     <section id="portfolio" class="bg-light-gray">
        <div class="container">
            <div class="row">
@@ -69,7 +70,7 @@
                                <i class="fa fa-plus fa-3x"></i>
                            </div>
                        </div>
-                       <img src="img/portfolio/OTHER/vous.jpg" class="img-responsive" alt="">
+                       <img src="img/portfolio/OTHER/voussmall.jpg" class="img-responsive" alt="">
                    </a>
                    <div class="portfolio-caption">
                        <h4>Vous</h4>
@@ -107,16 +108,8 @@
            </div>
        </div>
    </section>
-    <!--  -->
-    <!--  -->
-    <section id="">
+    <!-- FIN modal creation -->
 
-    </section>
-    <!--  -->
-    <!-- 3 -->
-    <section id="">
-
-    </section>
     <!-- FIN 3 -->
     <?php include("modal.php") ?>
     <!-- Footer -->

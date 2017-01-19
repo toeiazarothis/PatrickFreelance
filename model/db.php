@@ -1,9 +1,9 @@
 <?php
-define('UTILISATEUR','u852249137_mouss');
-define('PASS','foot1984');
+define('UTILISATEUR','u852249137_patri');
+define('PASS','azerty89000');
 function connectionDB(){
 	$nomServeur = "mysql.hostinger.fr";
-	$nomDB = "u852249137_aetsr";
+	$nomDB = "u852249137_patri";
 	$utilisateurServeur = UTILISATEUR;
 	$motDePasse = PASS;
 
