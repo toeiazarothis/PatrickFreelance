@@ -5,19 +5,18 @@
     <?php include("model/function.php") ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Site de l'auto ecole TSR à Troyes">
+    <meta name="description" content="Site de l'entreprise Azarothis Technologie à Troyes">
     <meta name="author" content="ToeiAzarothis">
     <link rel="author" href="humans.txt"/>
-    <link rel="shortcut icon" href="img/volant.png"/>
+    <link rel="shortcut icon" href="img/ .png"/>
     <!-- Balise OpenGraph -->
-    <meta property="og:title" content="TSR votre auto-ecole Troyenne"/>
+    <meta property="og:title" content="Azarothis Technologie a votre ecoute"/>
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Administration de l'auto ecole TSR.
-    Un code sera demander.">
+    <meta property="og:description" content="Pour prendre contact avec l'entreprise Azarothis Technologie rien de mieux que cette page.">
     <meta property="op:markup_version" content="v0.1">
     <meta property="og:locale" content="fr_FR">
-    <meta property="og:url" content="patrick.hol.es/TSR">
-    <meta property="og:image" content="http://mikomi.hol.es/img/opengraph.jpg">
+    <meta property="og:url" content="http://patrick.hol.es">
+    <meta property="og:image" content="http://patrick.hol.es/img/header/header-bg.jpg">
     <title>La creation</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -32,7 +31,7 @@
     <link href="css/agency.css" rel="stylesheet">
   </head>
   <body id="page-top" class="index">
-    
+
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->

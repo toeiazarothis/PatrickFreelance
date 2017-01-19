@@ -296,7 +296,7 @@ footer span.copyright,footer ul.quicklinks {
 #objet  *, #portfolio * {
 	z-index:2
 }
-@media (min-width:767px) {
+@media (min-width:600px) {
 	 .portfolio-item {
 		margin:0 0 30px
 	}

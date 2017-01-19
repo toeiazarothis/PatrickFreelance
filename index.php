@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/3821b24c40.css">
-    <meta name="twitter:" content="">
-    <meta name="" content="">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <?php include("model/function.php") ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de l'entreprise Azarothis Technologie à Troyes">
+    <meta name="author" content="ToeiAzarothis">
+    <link rel="author" href="humans.txt"/>
+    <link rel="shortcut icon" href="img/ .png"/>
+    <!-- Balise OpenGraph -->
+    <meta property="og:title" content="Azarothis Technologie a votre ecoute"/>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Page d'accueil de l'entreprise Azarothis Technologie'.">
+    <meta property="op:markup_version" content="v0.1">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content="http://patrick.hol.es">
+    <meta property="og:image" content="http://patrick.hol.es/img/header/header-bg.jpg">
     <title>La creation</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -46,16 +58,12 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour!</div>
           <div class="intro-heading">
-            <p>Bienvenue sur mon site </p>
-            <a href="#footer" class="page-scroll btn btn-xl">SUIVRE</a>
+            Bienvenue sur mon site et bonne visite
           </div>
         </div>
       </div>
     </header>
     <!-- FIN message d'accueil -->
-    <!-- Footer -->
-    <?php include("footer.php");?>
-    <!-- Fin footer -->
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
