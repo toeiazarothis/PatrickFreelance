@@ -45,7 +45,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
-              navigation</span> Menu </button> <a class="navbar-brand page-scroll"
+              navigation</span> Menu <i class="fa fa-bars"></i> </button> <a class="navbar-brand page-scroll"
             href="#page-top">Azarothis Technologie</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -66,9 +66,9 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour Patrick!</div>
           <div class="intro-heading">
-            <p>Quoi qu'il arrive reste positif il faut i croire </p>
-            <a href="#client" class="page-scroll btn btn-xl">SUIVRE</a>
+            Quoi qu'il arrive reste positif il faut i croire.
           </div>
+          <a href="#client" class="page-scroll btn btn-xl">Voir les futurs clients</a>
         </div>
       </div>
     </header>

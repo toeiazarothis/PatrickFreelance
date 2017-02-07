@@ -2,7 +2,6 @@
 <html lang="fr">
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <?php include("model/function.php") ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site de l'entreprise Azarothis Technologie à Troyes">
@@ -19,6 +18,8 @@
     <meta property="og:image" content="http://patrick.hol.es/img/header/header-bg.jpg">
     <title>La creation</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/Chart.min.js"></script>
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -37,7 +38,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
-              navigation</span> Menu </button> <a class="navbar-brand page-scroll"
+              navigation</span> <i class="fa fa-bars"> </i></button> <a class="navbar-brand page-scroll"
             href="#page-top">Azarothis</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -53,17 +54,116 @@
     </nav>
     <!--  -->
     <!-- Message d'accueil -->
-    <header>
+    <header class="bg bg-darkest-gray">
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour!</div>
-          <div class="intro-heading">
-            Bienvenue sur mon site et bonne visite
-          </div>
+          <div class="intro-heading"> Bienvenue sur mon site<br>Bonne navigation</div>
+          <a href="#biographie" class="page-scroll btn btn-xl">Me decouvrire</a>
         </div>
       </div>
     </header>
     <!-- FIN message d'accueil -->
+    <!--  -->
+    <section id="biographie">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Me Decouvrire</h2>
+                <h3 class="section-subheading text-muted">Decouvrez moi a travers cette description.</h3>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h3>Rapide presentation</h3>
+            <p>Je suis un jeune developpeur de 22 ans vivant actuellement entre Troyes et Auxerre.<p>
+            <p>Diplomé d'un bac pro electrotechnique je me suis ensuite reconvertit dans le domaine de l'informatique dans le quel je suis auto didacte depuis de nombreuse année.</p>
+            <p>Cette reconversion ma permis d'obtenir un diplome de niveau 4 en tant que developpeur web et je me suis specialisé en tant que front-end.</p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <h3>Mon train de vie</h3>
+            <canvas id="traindevie" style="width: 305px;"></canvas>
+          </div>
+          <div class="col-md-6 text-center">
+            <h3>Mon experience</h3>
+            <canvas id="experience" style="width: 305px;"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Quelque une de mes realisations.<br>Pour en voir plus c'est <a href="creation.php">ici</a>.</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-4 portfolio-item">
+                  <a href="#Modal1" class="portfolio-link" data-toggle="modal">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                      <h4>Hackerz Online</h4>
+                      <p class="text-muted">Website</p>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-4 portfolio-item">
+                  <a href="#Modal2" class="portfolio-link" data-toggle="modal">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                      <h4>Auto ecole TSR</h4>
+                      <p class="text-muted">Website</p>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-4 portfolio-item">
+                  <a href="#Modal3" class="portfolio-link" data-toggle="modal">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/portfolio/POGO3/pogo3.jpg" class="img-responsive" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                      <h4>Pokemon Go Troyes</h4>
+                      <p class="text-muted">Website</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-- col--offset- text-center">
+
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!--  -->
+    <?php include('modal.php') ?>
+    <?php include('footer.php') ?>
+    <?php include('graphique/chartjs.php') ?>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->

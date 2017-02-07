@@ -19,6 +19,22 @@ function listeNouveauxContact(){
   return $texte;
 }
 
+function listeNouveauxClient(){
+  $connexion = connectionDB();
+  $texte = '';
+  $listeNew = $connexion->query('SELECT * FROM `client`');
+  while ($result = $listeNew->fetch()) {
+    $texte .=
+    '<tr>
+      <td>'.$result['sexe'].'</td>
+      <td>'.$result['nom'].'</td>
+      <td>'.$result['prenom'].'</td>
+      <td>0'.$result['tel'].'</td>
+      <td>'.$result['mail'].'</td>
+      <td>'.$result['note'].'</td>
+    </tr><br>';}
+  return $texte;
+}
 function ajoutEleve (){
   $connexion = connectionDB();
 
@@ -39,11 +55,9 @@ function ajoutEleve (){
     '<header class="bg bg-darkest-gray">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Felicitation!</div>
-          <div class="intro-heading">
-            <p>Votre message à bien etait enregistrer </p>
-            <a href="index.php" class="page-scroll btn btn-xl">Accueil</a>
-          </div>
+          <div class="intro-lead-in">Bonjour Patrick!</div>
+          <div class="intro-heading">Votre message à bien etait enregistrer</div>
+          <a href="index.php" class="page-scroll btn btn-xl">Accueil</a>
         </div>
       </div>
     </header>';
@@ -52,15 +66,15 @@ function ajoutEleve (){
 function deplacerEleve(){
   $connexion = connectionDB();
 
-  $modification = $connexion->query('UPDATE `eleve` SET `nom_eleve` = '.$_POST["moveEleve"].'');
+  $modification = $connexion->query('UPDATE `freelance` SET `nom` = '.$_POST["moveEleve"].'');
 
-  echo "La pre-inscritpion a bien etait deplacer dans les eleves de l'etablisement";
+  echo "Le contact a bien etait deplacer dans les clients de l'etablisement";
 }
 function supprimerEleve(){
   $connexion = connectionDB();
 
-  $supprimer =$connexion->query('DELETE FROM `eleve` WHERE `nom_eleve` = '.$_POST["delEleve"].'');
+  $supprimer =$connexion->query('DELETE FROM `freelance` WHERE `nom` = '.$_POST["delEleve"].'');
 
-  echo "L'eleve est bien supprimer du systeme";
+  echo "Le contact est bien supprimer du systeme";
 }
 ?>

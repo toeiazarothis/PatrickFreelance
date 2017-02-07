@@ -6,7 +6,7 @@
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
   </head>
   <body>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="Modal1" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -41,7 +41,7 @@
       </div>
     </div>
     <!-- Portfolio Modal TSR -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="Modal2" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -73,7 +73,7 @@
       </div>
     </div>
     <!-- Portfolio Modal Blanche -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="Modal3" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
