@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"> </li>
-            <li><a href="index.php" class="text-center">Accueil</a></li>
+            <li><a href="#page-top" class="text-center page-scroll">Accueil</a></li>
             <li><a href="creation.php" class="text-center">Creation</a></li>
             <li><a href="http://patrick.hol.es/cv" class="text-center" target="_blank">CV</a></li>
             <li><a href="contact.php" class="text-center">Contact</a></li>
@@ -76,9 +76,9 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h3>Rapide presentation</h3>
-            <p>Je suis un jeune developpeur de 22 ans vivant actuellement entre Troyes et Auxerre.<p>
-            <p>Diplomé d'un bac pro electrotechnique je me suis ensuite reconvertit dans le domaine de l'informatique dans le quel je suis auto didacte depuis de nombreuse année.</p>
-            <p>Cette reconversion ma permis d'obtenir un diplome de niveau 4 en tant que developpeur web et je me suis specialisé en tant que front-end.</p>
+            <p>Je suis un jeune développeur de 22 ans vivants actuellement entre Troyes et Auxerre.</p>
+            <p>Diplômé d'un bac pro électrotechnique je me suis ensuite reconverti dans le domaine de l'informatique dans lequel je suis autodidacte depuis de nombreuses années.</p>
+            <p>Cette reconversion m'a permis d'obtenir un diplôme de niveau 4 en tant que développeur web et je me suis spécialisé en tant que front-end.</p>
           </div>
         </div>
         <br>
@@ -96,58 +96,58 @@
     </section>
 
     <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Quelque une de mes realisations.<br>Pour en voir plus c'est <a href="creation.php">ici</a>.</h3>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-sm-4 portfolio-item">
-                  <a href="#Modal1" class="portfolio-link" data-toggle="modal">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                              <i class="fa fa-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <h4>Hackerz Online</h4>
-                      <p class="text-muted">Website</p>
-                  </div>
-              </div>
-              <div class="col-md-4 col-sm-4 portfolio-item">
-                  <a href="#Modal2" class="portfolio-link" data-toggle="modal">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                              <i class="fa fa-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <h4>Auto ecole TSR</h4>
-                      <p class="text-muted">Website</p>
-                  </div>
-              </div>
-              <div class="col-md-4 col-sm-4 portfolio-item">
-                  <a href="#Modal3" class="portfolio-link" data-toggle="modal">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                              <i class="fa fa-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img src="img/portfolio/POGO3/pogo3.jpg" class="img-responsive" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                      <h4>Pokemon Go Troyes</h4>
-                      <p class="text-muted">Website</p>
-                  </div>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+            <h3 class="section-subheading text-muted">Quelque une de mes realisations.<br>Pour en voir plus c'est <a href="creation.php">ici</a>.</h3>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 portfolio-item">
+            <a href="#Modal1" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Hackerz Online</h4>
+              <p class="text-muted">Website</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 portfolio-item">
+            <a href="#Modal2" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Auto ecole TSR</h4>
+              <p class="text-muted">Website</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 portfolio-item">
+            <a href="#Modal3" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/POGO3/pogo3.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Pokemon Go Troyes</h4>
+              <p class="text-muted">Website</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- <section>
