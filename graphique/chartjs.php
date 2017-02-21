@@ -40,7 +40,7 @@
 
       // radar chart data
       var radarData = {
-        labels: ["HTML", "CSS", "Bootstrap", "PHP", "Chart.js"],
+        labels: ["HTML", "CSS", "Bootstrap", "PHP", "Chart.js", "Cinema 4D"],
         datasets: [
         {
           label: "En temps normal",
@@ -50,7 +50,7 @@
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [90,70,75,30,65]
+            data: [90,70,75,30,65,40]
         },
         ]
       };

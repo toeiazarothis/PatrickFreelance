@@ -24,11 +24,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
   </head>
   <body id="page-top" class="index">
 
@@ -67,14 +67,14 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour!</div>
           <div class="intro-heading">vous souhaitez me contacter ?</div>
-            <a href="#reseauxsociaux" class="page-scroll btn btn-xl">Mes reseaux</a>
+            <a href="#contact" class="page-scroll btn btn-xl">Me contacter</a>
           </div>
         </div>
       </div>
     </header>
     <!-- FIN message d'accueil -->
     <!-- Liste des reseaux sociaux -->
-    <section id="reseauxsociaux" class="bg bg-light-gray">
+    <!-- <section id="reseauxsociaux" class="bg bg-light-gray">
       <div class="container text-center">
         <h2 class="section-heading">Reseaux sociaux</h2>
         <h3 class="section-subheading text-muted">Je suis disponible sur different reseaux.<br>
@@ -97,7 +97,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Fin de la liste des reseaux sociaux -->
     <!-- Formulaire de contact -->
     <!-- Contact Section -->

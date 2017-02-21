@@ -25,11 +25,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
   </head>
   <body id="page-top" class="index">
 
@@ -39,7 +39,7 @@
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
               navigation</span> <i class="fa fa-bars"> </i></button> <a class="navbar-brand page-scroll"
-            href="#page-top">Azarothis</a> </div>
+            href="#page-top">Azarothis Technologie</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -59,7 +59,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour!</div>
           <div class="intro-heading"> Bienvenue sur mon site<br>Bonne navigation</div>
-          <a href="#biographie" class="page-scroll btn btn-xl">Me decouvrire</a>
+          <a href="#biographie" class="page-scroll btn btn-xl">Me decouvrir</a>
         </div>
       </div>
     </header>
@@ -69,14 +69,14 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Me Decouvrire</h2>
-                <h3 class="section-subheading text-muted">Decouvrez moi a travers cette description.</h3>
+                <h2 class="section-heading">Me Decouvrir</h2>
+                <h3 class="section-subheading text-muted">Découvrez-moi à travers cette description.</h3>
             </div>
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h3>Rapide presentation</h3>
-            <p>Je suis un jeune développeur de 22 ans vivants actuellement entre Troyes et Auxerre.</p>
+            <p>Je suis un jeune développeur de 22 ans vivant actuellement entre Troyes et Auxerre.</p>
             <p>Diplômé d'un bac pro électrotechnique je me suis ensuite reconverti dans le domaine de l'informatique dans lequel je suis autodidacte depuis de nombreuses années.</p>
             <p>Cette reconversion m'a permis d'obtenir un diplôme de niveau 4 en tant que développeur web et je me suis spécialisé en tant que front-end.</p>
           </div>
@@ -84,12 +84,12 @@
         <br>
         <div class="row">
           <div class="col-md-6 text-center">
-            <h3>Mon train de vie</h3>
-            <canvas id="traindevie" style="width: 305px;"></canvas>
+            <h3>Mon train de vie</h3><br>
+            <canvas id="traindevie" style="width: 305px;"></canvas><br>
           </div>
           <div class="col-md-6 text-center">
-            <h3>Mon experience</h3>
-            <canvas id="experience" style="width: 305px;"></canvas>
+            <h3>Mon experience</h3><br>
+            <canvas id="experience" style="width: 305px;"></canvas><br>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Quelque une de mes realisations.<br>Pour en voir plus c'est <a href="creation.php">ici</a>.</h3>
+            <h3 class="section-subheading text-muted">Quelques une de mes réalisations.<br>Pour en voir plus c'est <a href="creation.php">ici</a>.</h3>
           </div>
         </div>
         <div class="row">
@@ -150,6 +150,14 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="section-heading">Vous en voulez encore ?</h2>
+          <p>Pour ça rien de plus simple il vous suffit de naviguer sur le site et de voir mes autres <a href="creation.phh">TRAVAUX</a></p>
+        </div>
+      </div>
+    </section>
     <!-- <section>
       <div class="container">
         <div class="row">
