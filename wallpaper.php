@@ -43,133 +43,85 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"> </li>
             <li><a href="index.php" class="text-left"> <span class="fa fa-home"></span> Accueil</a></li>
-            <li><a href="#page-top" class="page-scroll text-left"><span class="fa fa-paint-brush"></span> Creation</a></li>
+            <li><a href="creation.php" class="text-left"><span class="fa fa-paint-brush"></span> Creation</a></li>
             <li><a href="http://patrick.hol.es/cv" class="text-left" target="_blank"><span class="fa fa-trophy"></span> CV</a></li>
             <li><a href="contact.php" class="text-left"><span class="fa fa-envelope"></span> Contact</a></li>
-            <li><a href="wallpaper.php" class="text-left"><span class="fa fa-picture-o"></span> Fond D'Écran</a></li>
+            <li><a href="#page-top" class="page-scroll text-left"><span class="fa fa-picture-o"></span> Fond D'Écran</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!--  -->
-    <!-- Message d'accueil -->
+
     <header class="bg bg-darkest-gray">
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour!</div>
-          <div class="intro-heading">Vous êtes ici sur mon portfolio.</div>
-          <a href="#portfolio" class="page-scroll btn btn-xl">Mon travail</a>
+          <div class="intro-heading">Cette page est encore en creation.</div>
+          <a href="/." class="page-scroll btn btn-xl">Retour Accueil</a>
         </div>
       </div>
     </header>
-    <!-- FIN message d'accueil -->
 
-    <!-- Modal creation -->
+
     <section id="portfolio" class="bg-light-gray">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Mes differentes creations</h2>
                 <h3 class="section-subheading text-muted">Pour des clients ou pour m'entrainer,<br>j'ai eu la possibilité de créer différents contenues.</h3>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
           <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal1" class="portfolio-link" data-toggle="modal">
+            <a href="#Wallpaper1" class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-picture-o fa-3x"></i>
                 </div>
               </div>
-              <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+              <img src="img/portfolio/LOISIR/CadreBugDroid.png" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Hackerz Online</h4>
-              <p class="text-muted">Website</p>
+              <h4>Android</h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal2" class="portfolio-link" data-toggle="modal">
+            <a href="#Wallpaper2" class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Auto ecole TSR</h4>
-              <p class="text-muted">Website</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal3" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/POGO3/pogo3.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Po Go 3</h4>
-              <p class="text-muted">Website</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal4" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-picture-o fa-3x"></i>
                 </div>
               </div>
               <img src="img/portfolio/LOISIR/CadrePortalCubeCompagnon.png" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Fond d'ecran Portal</h4>
-              <p class="text-muted">Wallpaper</p>
+              <h4>Le Cadeaux de Glados</h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal5" class="portfolio-link" data-toggle="modal">
+            <a href="#Wallpaper3" class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-picture-o fa-3x"></i>
                 </div>
               </div>
               <img src="img/portfolio/LOISIR/CadreBouleDeCristalDBZ.png" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Fond d'ecran Dragon Ball</h4>
-              <p class="text-muted">Wallpaper</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 portfolio-item">
-            <a href="#Modal6" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/FrereDarmes/FrereDarmes_pc.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Frere d'armes (Lords Mobile)</h4>
-              <p class="text-muted">Website Wordpress</p>
+              <h4>Les 7 Dragon Ball</h4>
+              <p class="text-muted"></p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FIN modal creation -->
-
     <!-- FIN 3 -->
-    <?php include("modal.php") ?>
+    <?php include("wallpaperModal.php") ?>
     <!-- Footer -->
     <?php include("footer.php");?>
     <!-- Fin footer -->

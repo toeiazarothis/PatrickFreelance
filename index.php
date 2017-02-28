@@ -44,10 +44,10 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"> </li>
-            <li><a href="#page-top" class="text-center page-scroll">Accueil</a></li>
-            <li><a href="creation.php" class="text-center">Creation</a></li>
-            <li><a href="http://patrick.hol.es/cv" class="text-center" target="_blank">CV</a></li>
-            <li><a href="contact.php" class="text-center">Contact</a></li>
+            <li><a href="#page-top" class="text-left page-scroll"><span class="fa fa-home"></span> Accueil</a></li>
+            <li><a href="creation.php" class="text-left"><span class="fa fa-paint-brush"></span> Creation</a></li>
+            <li><a href="http://patrick.hol.es/cv" class="text-left" target="_blank"><span class="fa fa-trophy"></span> CV</a></li>
+            <li><a href="contact.php" class="text-left"><span class="fa fa-envelope"></span> Contact</a></li>
           </ul>
         </div>
       </div>
@@ -154,7 +154,7 @@
       <div class="container">
         <div class="row text-center">
           <h2 class="section-heading">Vous en voulez encore ?</h2>
-          <p>Pour ça rien de plus simple il vous suffit de naviguer sur le site et de voir mes autres <a href="creation.phh">TRAVAUX</a></p>
+          <p>Pour ça rien de plus simple il vous suffit de naviguer sur le site et de voir mes autres <a href="creation.php">TRAVAUX</a></p>
         </div>
       </div>
     </section>

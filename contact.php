@@ -44,18 +44,10 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"> </li>
-            <li><a href="index.php" class="text-center">Accueil</a></li>
-            <li><a href="creation.php" class="text-center">Creation</a></li>
-            <li><a href="http://patrick.hol.es/cv" class="text-center" target="_blank">CV</a></li>
-            <li><a href="#page-top" class="text-center page-scroll">Contact</a></li>
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact
-                <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#reseauxsociaux"> Mes reseaux sociaux </a></li>
-                <li><a href="#contact"> Me laissez un message </a></li>
-              </ul>
-            </li> -->
+            <li><a href="index.php" class="text-left"> <span class="fa fa-home"></span> Accueil</a></li>
+            <li><a href="creation.php" class="text-left"><span class="fa fa-paint-brush"></span> Creation</a></li>
+            <li><a href="http://patrick.hol.es/cv" class="text-left" target="_blank"><span class="fa fa-trophy"></span> CV</a></li>
+            <li><a href="#page-top" class="text-left page-scroll"><span class="fa fa-envelope"></span> Contact</a></li>
           </ul>
         </div>
       </div>
@@ -74,21 +66,21 @@
     </header>
     <!-- FIN message d'accueil -->
     <!-- Liste des reseaux sociaux -->
-    <!-- <section id="reseauxsociaux" class="bg bg-light-gray">
+    <section id="reseauxsociaux" class="bg bg-light-gray">
       <div class="container text-center">
         <h2 class="section-heading">Reseaux sociaux</h2>
         <h3 class="section-subheading text-muted">Je suis disponible sur different reseaux.<br>
           A vous de jouer maintenant.</h3>
         <div class="row">
-          <div class="col-md-4 col-xs-4">
-            <a href="#"><i class="fa fa-facebook fa-5x"></i></a>
+          <div class="col-md-6 col-xs-6">
+            <a  target="_blank" href="#" target="_blank"><i class="fa fa-facebook fa-5x"></i></a>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <a href="#"><i class="fa fa-twitter fa-5x"></i></a>
+          <div class="col-md-6 col-xs-6">
+            <a  target="_blank" href="https://go.snapchat.com/add/azarothis"><i class="fa fa-snapchat-ghost fa-5x"></i></a>
           </div>
-          <div class="col-md-4 col-xs-4">
-            <a href="#"><i class="fa fa-skype fa-5x"></i></a>
-          </div>
+          <!-- <div class="col-md-4 col-xs-4">
+            <a  target="_blank" href="#"><i class="fa fa-skype fa-5x"></i></a>
+          </div> -->
         </div>
         <br><br><br>
         <div class="row">
@@ -97,7 +89,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Fin de la liste des reseaux sociaux -->
     <!-- Formulaire de contact -->
     <!-- Contact Section -->

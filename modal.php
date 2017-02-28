@@ -192,11 +192,8 @@
                     <!-- Project Details Go Here -->
                     <h2>Frere d'armes</h2>
                     <p class="item-intro text-muted">Pour une communauté de plus de 200 Joueurs regroupé sous le meme clan un site a etait mis en place sous le CMS WordPress. (Celui ci n'est pu utiliser.)</p>
-                    <p>Voici un exemple des different sondage effectuer sur le site grace au plugin <a href="https://wordpress.org/plugins/wp-polls/" target="_blank">WP-Polls</a> realiser par <a href="https://lesterchan.net/" target="_blank">Chan Hong Wei, Lester</a></p>
-
+                    <p>Voici un exemple des different sondage effectuer sur le site </p>
                     <img class="img-responsive img-centered" src="img/portfolio/FrereDarmes/Archive_sondage.png" alt="Archive des sondage effectuer sur le site">
-                    <p>Mise en place egalement d'un systeme securiser pour les connections.</p>
-                    <img class="img-responsive img-centered" src="img/portfolio/FrereDarmes/Login_securiser.png" alt="">
 
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
                 </div>
