@@ -18,7 +18,7 @@
     <meta property="og:image" content="http://patrick.hol.es/img/header/header-bg.jpg">
     <title>La creation</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="js/Chart.min.js"></script>
+    <script async src="js/Chart.min.js"></script>
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
