@@ -37,7 +37,7 @@
         <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle
               navigation</span> <i class="fa fa-bars"> </i></button> <a class="navbar-brand page-scroll"
-            href="#page-top">Azarothis</a> </div>
+            href="#page-top">Azarothis Technologie</a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -170,6 +170,7 @@
 
     <!-- FIN 3 -->
     <?php include("modal.php") ?>
+    <?php include('modalFooter.php') ?>
     <!-- Footer -->
     <?php include("footer.php");?>
     <!-- Fin footer -->

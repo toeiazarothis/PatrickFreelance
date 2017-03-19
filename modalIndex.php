@@ -15,7 +15,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Hackers MMO</h2>
+                  <h2>Votre PROJET</h2>
                   <p class="item-intro text-muted">Peu étre que le prochain ça sera vous.</p>
                   <img class="img-responsive img-centered" src="img/portfolio/OTHER/vous.jpg"
                     alt="">
@@ -35,9 +35,10 @@
         </div>
       </div>
     </div>
+
+
     <!-- Portfolio Modal TSR -->
-    <div class="portfolio-modal modal fade" id="Modal2" tabindex="-1" role="dialog"
-      aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="Modal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -50,24 +51,22 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="modal-body">
                   <h2>TSR</h2>
-                  <p class="item-intro text-muted">Ce site est une réalisation
-                    faite durant un stage.</p>
-                  <img class="img-responsive img-centered" src="img/portfolio/TSR.jpg"
-                    alt="">
+                  <p class="item-intro text-muted">Ce site est une réalisation faite durant un stage.</p>
+                  <img class="img-responsive img-centered" src="img/portfolio/TSR/tsr.jpg" alt="">
                   <p><br>
                   </p>
-                  <p>&nbsp; <strong>Étes vous prét a prouver votre bravoure a
-                      n'importe quel prix ?</strong></p>
-                  <img class="img-responsive img-centered" src="img/portfolio/TeamValor.jpg"
-                    alt=""> <button type="button" class="btn btn-primary" data-dismiss="modal">
-                    Fermer la fenêtre</button> </div>
+                  <p></p>
+                  <img class="img-responsive img-centered" src="img/portfolio/TSR/.jpg"alt="">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal Blanche -->
+
+
+    <!-- Portfolio Modal Pogo 3  -->
     <div class="portfolio-modal modal fade" id="Modal3" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
@@ -83,15 +82,14 @@
                 <div class="modal-body">
                   <h2>Pogo3</h2>
                   <p class="item-intro text-muted">
-                    Ce site a pour but de donner des informations au joueurs de Troyes et des alentours.</p>
+                    Ce site a pour but de donner des informations aux joueurs de Troyes et des alentours.</p>
                   <img class="img-responsive img-centered" src="img/portfolio/POGO3/pokedex.png" alt="">
                   <p>
                     Une page servant de pokedex est crée.
                   </p>
                   <img class="img-responsive img-centered" src="img/portfolio/POGO3/bulbizare.png" alt="">
-                  <p>Sur cette page ce trouve les statistique de chaque pokemon comme l'attaque la défense les points de vie les points de combats ainsi que la liste des attaque et leur puissance ainsi du jeu </p>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">
-                    Fermer la fenêtre</button> </div>
+                  <p>Sur cette page se trouve les statistiques de chaque pokemon comme l'attaque la défense les points de vie les points de combats ainsi que la liste des attaques et leurs puissances au sein du jeu </p>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
               </div>
             </div>
           </div>

@@ -53,8 +53,7 @@
     </nav>
 
     <!-- Message d'accueil -->
-    <?php echo ajoutJoueurs(); ?>
-    <?php echo ajoutDatacenter(); ?>
+    <?php echo ajoutClient(); ?>
     <!-- FIN message d'accueil -->
     <!-- Footer -->
     <?php include("footer.php");?>

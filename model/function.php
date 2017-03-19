@@ -35,7 +35,7 @@ function listeNouveauxClient(){
     </tr><br>';}
   return $texte;
 }
-function ajoutEleve (){
+function ajoutClient (){
   $connexion = connectionDB();
 
   $ajout = $connexion->exec('INSERT INTO `freelance`
@@ -56,21 +56,21 @@ function ajoutEleve (){
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bonjour Patrick!</div>
-          <div class="intro-heading">Votre message à bien etait enregistrer</div>
+          <div class="intro-heading">Votre message à bien était enregistrer</div>
           <a href="index.php" class="page-scroll btn btn-xl">Accueil</a>
         </div>
       </div>
     </header>';
 }
 
-function deplacerEleve(){
+function deplacerClient(){
   $connexion = connectionDB();
 
   $modification = $connexion->query('UPDATE `freelance` SET `nom` = '.$_POST["moveEleve"].'');
 
   echo "Le contact a bien etait deplacer dans les clients de l'etablisement";
 }
-function supprimerEleve(){
+function supprimerClient(){
   $connexion = connectionDB();
 
   $supprimer =$connexion->query('DELETE FROM `freelance` WHERE `nom` = '.$_POST["delEleve"].'');

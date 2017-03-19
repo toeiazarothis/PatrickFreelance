@@ -80,7 +80,8 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal Blanche -->
+
+    <!-- Portfolio Modal Pogo 3 -->
     <div class="portfolio-modal modal fade" id="Modal3" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
@@ -145,7 +146,7 @@
       </div>
     </div>
 
-
+    <!-- Portfolio Modal DragonBall Z -->
     <div class="portfolio-modal modal fade" id="Modal5" tabindex="-1" role="dialog"
       aria-hidden="true">
       <div class="modal-dialog">
@@ -176,7 +177,7 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal Hackerz Online -->
+    <!-- Portfolio Modal Frere d'armes -->
       <div class="portfolio-modal modal fade" id="Modal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">

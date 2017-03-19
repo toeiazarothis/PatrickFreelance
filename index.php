@@ -7,7 +7,7 @@
     <meta name="description" content="Site de l'entreprise Azarothis Technologie à Troyes">
     <meta name="author" content="ToeiAzarothis">
     <link rel="author" href="humans.txt"/>
-    <link rel="shortcut icon" href="img/ .png"/>
+    <link rel="shortcut icon" href="img/favicon.png"/>
     <!-- Balise OpenGraph -->
     <meta property="og:title" content="Azarothis Technologie a votre ecoute"/>
     <meta property="og:type" content="website">
@@ -79,6 +79,7 @@
             <p>Je suis un jeune développeur de 22 ans vivant actuellement entre Troyes et Auxerre.</p>
             <p>Diplômé d'un bac pro électrotechnique je me suis ensuite reconverti dans le domaine de l'informatique dans lequel je suis autodidacte depuis de nombreuses années.</p>
             <p>Cette reconversion m'a permis d'obtenir un diplôme de niveau 4 en tant que développeur web et je me suis spécialisé en tant que front-end.</p>
+            <p>Egalement membre de l'equipe de traduction de l'application <a target="_blank" href="https://www.mysms.com/">MySMS</a> et de la communauté <a target="_blank" href="https://crowdin.com/">Crowdin</a>.</p>
           </div>
         </div>
         <br>
@@ -111,7 +112,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="img/portfolio/TSR/tsr.jpg" class="img-responsive" alt="">
+              <img src="img/portfolio/OTHER/modal1.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Hackerz Online</h4>
@@ -168,7 +169,8 @@
       </div>
     </section> -->
     <!--  -->
-    <?php include('modal.php') ?>
+    <?php include('modalFooter.php') ?>
+    <?php include('modalIndex.php') ?>
     <?php include('footer.php') ?>
     <?php include('graphique/chartjs.php') ?>
 
